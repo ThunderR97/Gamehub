@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  border: black;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  position: absolute;
+  left: 15em;
+}
+
+.games {
+  color: white;
+  line-height: 0.5;
+  font-family: "Arial", Tahoma, Verdana, sans-serif;
+  font: 30;
+}
+
+.login {
+  background-color: red;
+  color: white;
+  font-family: "Arial", Tahoma, Verdana, sans-serif;
+  float: right;
+}
+
+.register {
+  color: white;
+  background-color: blue;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial", Tahoma, Verdana, sans-serif;
+  background-size: 10px;
+}
+
+.tabs {
+  color: #707070;
+  background-color: #fd7c6e;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+.home {
+  color: #707070;
+  background-color: #fd7c6e;
+}
+.gamestab {
+  color: #707070;
+  background-color: #fd7c6e;
+}
+.devices {
+  color: #707070;
+  background-color: #fd7c6e;
+}
+.about-us {
+  color: #707070;
+  background-color: #fd7c6e;
+}
