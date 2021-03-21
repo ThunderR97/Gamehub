@@ -4,12 +4,6 @@ body {
 
 h1 {
   color: white;
-  border: black;
-  font-size: 40px;
-}
-
-h2 {
-  color: white;
   position: absolute;
   left: 15em;
 }
@@ -47,18 +41,22 @@ h2 {
 .home {
   color: #707070;
   background-color: #fd7c6e;
+  display: inline-block;
 }
 .gamestab {
   color: #707070;
   background-color: #fd7c6e;
+  display: inline-block;
 }
 .devices {
   color: #707070;
   background-color: #fd7c6e;
+  display: inline-block;
 }
 .about-us {
   color: #707070;
   background-color: #fd7c6e;
+  display: inline-block;
 }
 .background-image {
   max-width: 1556px;
@@ -66,23 +64,31 @@ h2 {
   position: absolute;
 }
 .borderlands {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   max-width: 199px;
   max-height: 298px;
 }
 .fantasyiv {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   max-width: 254px;
   max-height: 300px;
 }
 .cyberpunk {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   max-width: 266px;
   max-height: 295px;
 }
+.gamehub {
+   {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  max-width: 363px;
+  max-height: 240px;
+  }
