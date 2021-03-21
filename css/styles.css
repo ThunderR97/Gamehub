@@ -70,6 +70,7 @@ h2 {
 .borderlands {
   max-width: 199px;
   max-height: 298px;
+  position: absolute;
 }
 .fantasyiv {
   max-width: 254px;
