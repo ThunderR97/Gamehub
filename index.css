@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  border: black;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  position: absolute;
+  left: 15em;
+}
+
+.games {
+  color: red;
+}
