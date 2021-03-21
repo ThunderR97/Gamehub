@@ -71,7 +71,7 @@ h2 {
   max-width: 199px;
   max-height: 298px;
   position: absolute;
-  right: 800px;
+  right: 200px;
 }
 .fantasyiv {
   max-width: 254px;
@@ -82,5 +82,6 @@ h2 {
 .cyberpunk {
   max-width: 266px;
   max-height: 295px;
-  right: 200px;
+  position: absolute;
+  right: 800px;
 }
