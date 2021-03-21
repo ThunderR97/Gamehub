@@ -85,10 +85,8 @@ h1 {
   max-height: 295px;
 }
 .gamehub {
-   {
-  position: absolute;
   top: 8px;
   left: 16px;
   max-width: 363px;
   max-height: 240px;
-  }
+}
