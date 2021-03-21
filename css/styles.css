@@ -64,6 +64,8 @@ h2 {
 .background-image {
   max-width: 1556px;
   max-height: 778px;
+  position: absolute;
+  bottom: 100;
 }
 .borderlands {
   max-width: 199px;
