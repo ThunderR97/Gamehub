@@ -65,20 +65,20 @@ h2 {
   max-width: 1556px;
   max-height: 778px;
   position: absolute;
-  bottom: 100;
+  bottom: 100px;
 }
 .borderlands {
   max-width: 199px;
   max-height: 298px;
-  right: 200px;
+  right: 1200px;
 }
 .fantasyiv {
   max-width: 254px;
   max-height: 300px;
-  right: 500px;
+  right: 1500px;
 }
 .cyberpunk {
   max-width: 266px;
   max-height: 295px;
-  right: 800px;
+  right: 1800px;
 }
