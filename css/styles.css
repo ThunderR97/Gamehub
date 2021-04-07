@@ -61,7 +61,7 @@ h1 {
 .background-image {
   max-width: 1556px;
   max-height: 778px;
-  position: absolute;
+  position: center;
 }
 .borderlands {
   display: inline-block;
