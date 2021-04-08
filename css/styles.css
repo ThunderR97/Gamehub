@@ -13,11 +13,16 @@ header {
 
 h1 {
   color: white;
-  left: 960px;
-  font-size: 40px;
+  top: 425px;
+  right: 275px;
+  font-size: 60px;
   text-align: center;
-  bottom: 50px;
   position: relative;
+}
+
+h1 :hover {
+  color: yellow;
+  background-color: red;
 }
 
 .games {
@@ -26,26 +31,37 @@ h1 {
   font-family: "Arial", Tahoma, Verdana, sans-serif;
   font-size: 30px;
   position: relative;
-  left: 200px;
-  bottom: 10px;
+  left: 190px;
+  top: 30px;
+}
+
+.games a:hover {
+  color: red;
 }
 
 .login {
+  display: inline-block;
   background-color: red;
   color: white;
   font-family: "Arial", Tahoma, Verdana, sans-serif;
+  left: 1450px;
   font-size: 25px;
-  float: right;
+  position: relative;
+  padding: 3px 15px;
+  margin: 12px;
 }
 
 .register {
+  display: inline-block;
   color: white;
   background-color: blue;
-  float: right;
   font-family: "Arial", Tahoma, Verdana, sans-serif;
   background-size: 10px;
   font-size: 25px;
+  left: 1450px;
   position: relative;
+  padding: 3px 15px;
+  margin: 12px;
 }
 .tabs {
   color: #707070;
@@ -112,28 +128,28 @@ h1 {
 }
 .borderlands {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 199px;
   max-height: 298px;
   position: relative;
+  top: 450px;
+  left: 700px;
 }
 .fantasyiv {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
   bottom: 0px;
   max-width: 254px;
   max-height: 300px;
   position: relative;
+  top: 450px;
+  left: 700px;
 }
 .cyberpunk {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 266px;
   max-height: 295px;
   position: relative;
+  top: 450px;
+  left: 700px;
 }
 .gamehub {
   top: 8px;
@@ -143,7 +159,19 @@ h1 {
   max-height: 240px;
   position: absolute;
 }
-.box {
-  background-color: blue;
-  float: top;
+.search {
+  display: inline-block;
+  background-color: #00ffdc;
+  position: relative;
+  left: 1944px;
+  width: 40px;
+  height: auto;
+  top: 0px;
+}
+.searchbar {
+  display: inline-block;
+  position: absolute;
+  left: 1800px;
+  top: 20px;
+  height: auto;
 }
