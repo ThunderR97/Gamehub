@@ -19,6 +19,16 @@ h1 {
   left: 180px;
 }
 
+h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.homepage-info {
+  color: white;
+  font-size: 20px;
+}
+
 h1 a:hover {
   color: yellow;
   background-color: red;
@@ -26,16 +36,22 @@ h1 a:hover {
 
 .games {
   color: #ffffff;
-  line-height: 0.5;
+  line-height: 0.7;
   font-family: "Arial", Tahoma, Verdana, sans-serif;
   font-size: 30px;
   position: relative;
   left: 190px;
   top: -400px;
+  text-decoration: none;
+}
+
+.current {
+  color: #3d3a3a;
 }
 
 .games a:hover {
-  color: red;
+  color: orange;
+  text-decoration: none;
 }
 
 .login {
@@ -162,6 +178,14 @@ h1 a:hover {
   max-height: 240px;
   position: absolute;
 }
+
+.gamehub-homepage {
+  bottom: 0px;
+  left: 720px;
+  max-width: 735px;
+  max-height: 486px;
+  position: absolute;
+}
 .search {
   display: inline-block;
   background-color: #00ffdc;
@@ -187,6 +211,7 @@ h1 a:hover {
   background-color: #cecece;
   padding: 0px;
   margin: 0px;
+  top: 10px;
 }
 .carticon {
   left: 800px;
@@ -194,4 +219,7 @@ h1 a:hover {
   position: absolute;
   width: 95px;
   height: 71px;
+}
+.fill {
+  color: white;
 }
