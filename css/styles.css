@@ -1,6 +1,5 @@
 body {
   background-color: #d5d1cb;
-  z-index: -3;
 }
 
 header {
@@ -17,7 +16,7 @@ h1 {
   font-size: 60px;
   text-align: center;
   position: relative;
-  left: 180px;
+  left: 100px;
 }
 
 h2 {
@@ -33,7 +32,6 @@ h3,
 h4 {
   color: white;
   font-size: 40px;
-  position: absolute;
   bottom: 400px;
   left: 900px;
 }
@@ -83,7 +81,7 @@ h1 a:hover {
   background-color: red;
   color: white;
   font-family: "Arial", Tahoma, Verdana, sans-serif;
-  left: 1100px;
+  left: 675px;
   font-size: 25px;
   position: relative;
   padding: 3px 15px;
@@ -98,7 +96,7 @@ h1 a:hover {
   font-family: "Arial", Tahoma, Verdana, sans-serif;
   background-size: 10px;
   font-size: 25px;
-  left: 1100px;
+  left: 675px;
   position: relative;
   padding: 3px 15px;
   margin: 12px;
@@ -118,7 +116,7 @@ h1 a:hover {
   font-size: 40px;
   border-radius: 20px;
   position: relative;
-  left: 140px;
+  left: -300px;
   top: 55px;
   padding: 2px 15px 2px;
   margin: 10px;
@@ -130,7 +128,7 @@ h1 a:hover {
   border-radius: 20px;
   font-size: 40px;
   position: relative;
-  left: 140px;
+  left: -290px;
   top: 55px;
   padding: 2px 15px 2px;
   margin: 10px;
@@ -142,7 +140,7 @@ h1 a:hover {
   border-radius: 20px;
   font-size: 40px;
   position: relative;
-  left: 140px;
+  left: -280px;
   top: 55px;
   padding: 2px 15px 2px;
   margin: 10px;
@@ -154,21 +152,12 @@ h1 a:hover {
   border-radius: 20px;
   font-size: 40px;
   position: relative;
-  left: 140px;
+  left: -270px;
   top: 55px;
   padding: 2px 15px 2px;
   margin: 10px;
 }
-.background-image {
-  max-width: 1556px;
-  max-height: 778px;
-  position: absolute;
-  bottom: 0px;
-  left: 180px;
-  z-index: -1;
-  padding: -40px;
-  margin-top: -50px;
-}
+
 .borderlands {
   display: inline-block;
   max-width: 199px;
@@ -200,7 +189,6 @@ h1 a:hover {
   float: left;
   max-width: 363px;
   max-height: 240px;
-  position: absolute;
 }
 
 .gamehub-homepage {
@@ -208,20 +196,18 @@ h1 a:hover {
   left: 720px;
   max-width: 735px;
   max-height: 486px;
-  position: absolute;
 }
 .search {
   display: inline-block;
   background-color: #00ffdc;
   position: relative;
-  left: 1630px;
+  left: 1430px;
   width: 40px;
   height: auto;
   top: 0px;
 }
 .searchbar {
   display: inline-block;
-  position: absolute;
   right: 270px;
   top: 20px;
   height: auto;
@@ -230,7 +216,6 @@ h1 a:hover {
   text-align: center;
   left: 1740px;
   top: 0px;
-  position: absolute;
   font-family: "Arial", Tahoma, Verdana, sans-serif;
   font-size: 30px;
   background-color: #cecece;
@@ -242,14 +227,12 @@ h1 a:hover {
 .carticon {
   left: 1790px;
   top: 20px;
-  position: absolute;
   width: 95px;
   height: 71px;
 }
 .fill {
   color: white;
   font-size: 20px;
-  position: absolute;
   bottom: 350px;
   left: 900px;
 }
@@ -257,7 +240,6 @@ h1 a:hover {
 .fill-register {
   color: white;
   font-size: 20px;
-  position: absolute;
   bottom: 250px;
   left: 900px;
 }
@@ -317,7 +299,6 @@ h1 a:hover {
 }
 
 .cart-game {
-  position: absolute;
   left: 350px;
 }
 
@@ -335,4 +316,12 @@ h1 a:hover {
   top: 20px;
   position: relative;
   font-size: 30px;
+}
+
+main {
+  background-image: url(/images/background-image.png);
+  background-size: cover;
+}
+
+@media (min-width: 400px) and (max-width: 1200px) {
 }
