@@ -4,7 +4,6 @@ body {
 
 header {
   background-image: linear-gradient(180deg, #8a8a8a, #454545);
-  z-index: -2;
   border: 2px solid red;
   position: relative;
   padding-bottom: 70px;
@@ -39,7 +38,7 @@ h4 {
 h5 {
   color: white;
   font-size: 40px;
-  left: 260px;
+  left: 320px;
   position: relative;
 }
 
@@ -158,27 +157,11 @@ h1 a:hover {
   margin: 10px;
 }
 
-.borderlands {
-  display: inline-block;
-  max-width: 199px;
-  max-height: 298px;
-  position: relative;
-  top: 10px;
-  left: 800px;
-}
-.fantasyiv {
+.games-display {
   display: inline-block;
   bottom: 0px;
   max-width: 254px;
   max-height: 300px;
-  position: relative;
-  top: 10px;
-  left: 800px;
-}
-.cyberpunk {
-  display: inline-block;
-  max-width: 266px;
-  max-height: 295px;
   position: relative;
   top: 10px;
   left: 800px;
@@ -201,10 +184,10 @@ h1 a:hover {
   display: inline-block;
   background-color: #00ffdc;
   position: relative;
-  left: 1430px;
-  width: 40px;
-  height: auto;
-  top: 0px;
+  left: 1185px;
+  width: auto;
+  height: 19px;
+  top: 5px;
 }
 .searchbar {
   display: inline-block;
@@ -214,20 +197,21 @@ h1 a:hover {
 }
 .cart {
   text-align: center;
-  left: 1740px;
-  top: 0px;
+  left: -100px;
   font-family: "Arial", Tahoma, Verdana, sans-serif;
   font-size: 30px;
   background-color: #cecece;
   padding: 0px;
-  margin: 0px;
-  top: 10px;
+  margin: -0px;
+  top: 50px;
   display: inline-block;
+  position: relative;
+  width: 60px;
 }
 .carticon {
   left: 1790px;
   top: 20px;
-  width: 95px;
+  width: auto;
   height: 71px;
 }
 .fill {
@@ -254,7 +238,7 @@ h1 a:hover {
 
 .price {
   color: white;
-  top: 325px;
+  top: 0px;
   left: 435px;
   font-size: 30px;
   position: relative;
@@ -275,15 +259,15 @@ h1 a:hover {
   background-color: #af5151;
   position: relative;
   font-size: 30px;
-  top: 300px;
-  left: 400px;
+  top: 0px;
+  left: 300px;
   display: inline-block;
 }
 
 .shopping {
   color: white;
-  top: 300px;
-  left: 410px;
+  top: 0px;
+  left: 350px;
   background-color: #af5151;
   position: relative;
   font-size: 30px;
@@ -291,9 +275,10 @@ h1 a:hover {
 }
 
 .price-total {
+  display: inline-block;
   color: white;
-  left: 1050px;
-  top: 210px;
+  left: 500px;
+  top: 0px;
   position: relative;
   font-size: 30px;
 }
@@ -321,6 +306,24 @@ h1 a:hover {
 main {
   background-image: url(/images/background-image.png);
   background-size: cover;
+}
+
+.borderlands-cart,
+.csgo-cart,
+.cyberpunk-cart,
+.fantasy-cart,
+.gta5-cart,
+.jumanji-cart,
+.minecraft-cart,
+.overwatch-cart,
+.sherlock-cart,
+.tf2-cart,
+.vampyr-cart {
+  max-width: 266px;
+  max-height: 295px;
+  position: relative;
+  top: 10px;
+  left: 360px;
 }
 
 @media (min-width: 400px) and (max-width: 1200px) {
