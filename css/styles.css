@@ -341,7 +341,8 @@ main {
 .overwatch-cart,
 .sherlock-cart,
 .tf2-cart,
-.vampyr-cart {
+.vampyr-cart,
+.products {
   max-width: 266px;
   max-height: 295px;
   position: relative;
